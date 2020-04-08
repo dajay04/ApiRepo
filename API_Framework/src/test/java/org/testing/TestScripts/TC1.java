@@ -37,6 +37,7 @@ public class TC1
 	    
 	   idValue= ResponeDataParsing.response_parsing(res, "id");
 	   
+	   System.out.println(idValue);
 		System.out.println("***RESPONSE CODE IS****");
 	    System.out.println(res.statusCode());
 	    System.out.println("******Data is  ******");
